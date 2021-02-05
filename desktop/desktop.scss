@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Eina';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Eina-01-Regular.otf')  format('opentype');
+}
+
+@font-face {
+    font-family: 'Eina';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/Eina-01-SemiBold.otf')  format('opentype');
+}
+
+body {
+    font-family: "Eina", "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
+}
+
 .topic-list > tbody > tr:nth-child(odd) {
   background-color: var(--secondary);
 }
@@ -9,7 +27,7 @@
 .topic-list a.title:not(.badge-notification) {
   color: #3b5998;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
+  font-family: "Eina", "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
   font-size: 18px;
 }
 
