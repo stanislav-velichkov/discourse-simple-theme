@@ -87,12 +87,17 @@ TopicListItemView.reopen({
 });
 
 var headerContentNode = document.querySelector(".d-header .header-buttons");
+var text = "Help centre";
 var link = document.createElement('a');
-var linkText = "Help centre";
+var linkText = document.createTextNode(text);
 
-link.appendChild(document.createTextNode(linkText));
-link.title = link;
+link.appendChild(linkText);
+link.title = text;
 link.href = "https://helpcentre.trading212.com/hc/en-us";
+
+console.log('headerContentNode: ', headerContentNode);
+console.log('link: ', link);
+
 
 if (headerContentNode) {
     headerContentNode.appendChild(link);
