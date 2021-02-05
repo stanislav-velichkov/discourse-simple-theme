@@ -88,13 +88,13 @@ TopicListItemView.reopen({
 
 window.addEventListener('load', () => {
     var headerContentNode = document.querySelector(".d-header .header-buttons");
-    var text = "Help centre";
+    var linkText = "Help centre";
     var link = document.createElement('a');
-    var linkText = document.createTextNode(text);
 
-    link.appendChild(linkText);
-    link.title = text;
+    link.title = linkText;
     link.href = "https://helpcentre.trading212.com/hc/en-us";
+    link.setAttribute("target", "_blank");
+    link.appendChild(document.createTextNode(linkText));
 
     if (headerContentNode) {
         headerContentNode.appendChild(link);
