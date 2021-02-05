@@ -1,5 +1,14 @@
 {
-  "name": "Sam's Simple Theme",
-  "about_url": "https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552",
-  "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt"
+  "name": "Trading212Theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "Eina_Regular": "assets/Eina_Regular.otf",
+    "Eina_SemiBold": "assets/Eina_SemiBold.otf"
+  }
 }
