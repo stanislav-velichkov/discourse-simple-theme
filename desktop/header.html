@@ -86,14 +86,14 @@ TopicListItemView.reopen({
     }.property()
 });
 
-const headerContentNode = document.querySelector("#main header .contents");
-const headerPanelNode = document.querySelector("#main header .contents .panel");
-const buttonWraper = document.createElement("div");
-const text = document.createTextNode("Hi there and greetings!");
+const headerContentNode = document.querySelector(".d-header .header-buttons");
+const link = document.createElement("a");
+const text = document.createTextNode("Help centre");
 
-buttonWraper.appendChild(text);
-headerContentNode.insertBefore(buttonWraper, headerPanelNode);
-
+link.appendChild(text);
+if (headerContentNode) {
+    headerContentNode.appendChild();
+}
 })();
 
 </script>
