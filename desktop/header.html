@@ -78,7 +78,6 @@
 
 var TopicListItemView = require('discourse/components/topic-list-item').default;
 
-
 TopicListItemView.reopen({
     showCategory: function(){
         return !this.get('controller.hideCategory') &&
@@ -86,6 +85,14 @@ TopicListItemView.reopen({
                 this.get('topic.category.name') !== 'uncategorized';
     }.property()
 });
+
+const headerContentNode = document.querySelector("#main header .contents");
+const headerPanelNode = document.querySelector("#main header .contents .panel");
+const buttonWraper = document.createElement("div");
+const text = document.createTextNode("Hi there and greetings!");
+
+buttonWraper.appendChild(text);
+headerContentNode.insertBefore(buttonWraper, headerPanelNode);
 
 })();
 
