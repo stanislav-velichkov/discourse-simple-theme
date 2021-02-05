@@ -20,10 +20,6 @@ html {
     border-radius: 30px;
 }
 
-body {
-    font-family: "Eina", "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
-}
-
 .topic-list > tbody > tr:nth-child(odd) {
   background-color: var(--secondary);
 }
@@ -35,7 +31,6 @@ body {
 .topic-list a.title:not(.badge-notification) {
   color: #3b5998;
   font-weight: normal;
-  font-family: "Eina", "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
   font-size: 18px;
 }
 
