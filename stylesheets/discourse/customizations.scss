@@ -4,4 +4,9 @@ img.avatar {
 
 .d-header .header-buttons .help-centre {
   color: #9c9da0;
+  cursor: pointer;
+}
+
+.d-header .header-buttons .help-centre:hover {
+  text-decoration: underline;
 }
