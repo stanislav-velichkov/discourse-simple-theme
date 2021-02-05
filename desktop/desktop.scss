@@ -2,14 +2,14 @@
     font-family: 'Eina';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/Eina-01-Regular.otf')  format('opentype');
+    src: url('./fonts/Eina-01-Regular.otf')  format('opentype');
 }
 
 @font-face {
     font-family: 'Eina';
     font-style: normal;
     font-weight: 600;
-    src: url('/fonts/Eina-01-SemiBold.otf')  format('opentype');
+    src: url('./fonts/Eina-01-SemiBold.otf')  format('opentype');
 }
 
 body {
