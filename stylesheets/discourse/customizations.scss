@@ -18,3 +18,8 @@ img.avatar {
 .d-header .badge-wrapper .badge-category .category-name {
   color: #fff;
 }
+
+.topic-list td.last-post {
+  display: flex;
+  align-items: center;
+}
