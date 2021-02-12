@@ -2,3 +2,7 @@
 @import "/discourse/main";
 @import "/discourse/sams-theme";
 @import "/discourse/customizations";
+
+*:hover {
+  background: red;
+}
