@@ -28,7 +28,7 @@
 }
 
 .topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .topic-list a.title:not(.badge-notification) {
@@ -65,7 +65,7 @@
 }
 
 .topic-list th {
-  color: black;
+  color: var(--primary);
   background-color: var(--secondary);
 }
 .topic-list {
@@ -159,7 +159,7 @@ nav.post-controls button.has-like {
 }
 
 .badge-wrapper.bullet span.badge-category {
-  color: #333 !important;
+  color: var(--primary) !important;
 }
 
 .creator .badge-wrapper.bullet span.badge-category {
@@ -200,7 +200,7 @@ img.avatar {
 }
 
 .d-header .header-buttons .help-centre {
-  color: #fff;
+  color: var(--secondary);
   cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ img.avatar {
 }
 
 .d-header .badge-wrapper .badge-category .category-name {
-  color: #fff;
+  color: var(--secondary);
 }
 
 .creator .badge-wrapper.bullet span.badge-category {
