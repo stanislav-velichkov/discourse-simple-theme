@@ -24,7 +24,7 @@
 /*** Sam's theme ***/
 
 .topic-list > tbody > tr:nth-child(odd) {
-  background-color: white;
+  background-color: var(--secondary);;
 }
 
 .topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
@@ -66,7 +66,7 @@
 
 .topic-list th {
   color: black;
-  background-color: #fafafa;
+  background-color: var(--secondary);
 }
 .topic-list {
   border-top: none;
@@ -146,7 +146,7 @@
 
 /* topic page */
 #topic-progress {
-  background-color: #f1f1f1;
+  background-color: var(--secondary);
   color: #666;
   font-weight: normal;
   .bg {
