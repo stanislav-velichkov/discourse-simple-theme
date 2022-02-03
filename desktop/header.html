@@ -10,7 +10,7 @@
   {{raw "topic-status" topic=topic}}
   {{topic-link topic}}
   {{#if controller.showTopicPostBadges}}
-    {{raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl}}
+    {{raw "topic-post-badges" unreadPosts=topic.unread_posts unseen=topic.unseen url=topic.lastUnreadUrl newDotText=newDotText}}
   {{/if}}
   {{discourse-tags topic mode="list"}}
   {{raw "list/topic-excerpt" topic=model}}
